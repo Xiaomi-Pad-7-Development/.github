@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="Xiaomi Pad 7 (uke)">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#1c3a2a"/>
+      <stop offset="1" stop-color="#0b1511"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a4f55"/>
+      <stop offset="0.5" stop-color="#2b2f34"/>
+      <stop offset="1" stop-color="#3a3f45"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1f16"/>
+      <stop offset="1" stop-color="#06100b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="45%">
+      <stop offset="0" stop-color="#7bd36a" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#2f8f4a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#0b1511" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+    <clipPath id="clip"><rect x="146" y="76" width="668" height="446" rx="26"/></clipPath>
+  </defs>
+
+  <rect width="960" height="600" rx="28" fill="url(#bg)"/>
+
+  <!-- tablet body -->
+  <g filter="url(#shadow)">
+    <rect x="120" y="50" width="720" height="498" rx="46" fill="url(#body)"/>
+    <rect x="120" y="50" width="720" height="498" rx="46" fill="none" stroke="#6b7078" stroke-opacity="0.6" stroke-width="2"/>
+  </g>
+
+  <!-- screen -->
+  <rect x="146" y="76" width="668" height="446" rx="26" fill="url(#screen)"/>
+  <g clip-path="url(#clip)">
+    <ellipse cx="480" cy="300" rx="330" ry="215" fill="url(#glow)"/>
+    <ellipse cx="480" cy="300" rx="250" ry="150" fill="none" stroke="#9be58a" stroke-opacity="0.35" stroke-width="3"/>
+
+    <!-- home screen -->
+    <text x="480" y="270" text-anchor="middle" font-family="Inter, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="300" fill="#eef5f0">11:42</text>
+    <text x="480" y="312" text-anchor="middle" font-family="Inter, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#b9ccbf">Sunday, 25 October</text>
+    <rect x="404" y="344" width="152" height="6" rx="3" fill="#cfe8cf" fill-opacity="0.35"/>
+
+    <!-- taskbar -->
+    <rect x="368" y="456" width="224" height="46" rx="23" fill="#0c1411" fill-opacity="0.85"/>
+    <circle cx="402" cy="479" r="12" fill="#e5483f"/>
+    <circle cx="436" cy="479" r="12" fill="#5a63e6"/>
+    <circle cx="470" cy="479" r="12" fill="#1db954"/>
+    <circle cx="504" cy="479" r="12" fill="#1a98ff"/>
+    <circle cx="538" cy="479" r="12" fill="#f2b84b"/>
+    <circle cx="572" cy="479" r="12" fill="#cfd5d2"/>
+
+    <!-- status bar -->
+    <text x="170" y="100" font-family="Inter, Roboto, Arial, sans-serif" font-size="14" fill="#d9e2dd">11:42</text>
+    <text x="790" y="100" text-anchor="end" font-family="Inter, Roboto, Arial, sans-serif" font-size="14" fill="#d9e2dd">100%</text>
+    <rect x="796" y="88" width="10" height="12" rx="2" fill="#5ed35e" opacity="0"/>
+
+    <rect x="146" y="76" width="668" height="446" fill="url(#sheen)"/>
+  </g>
+
+  <!-- front camera -->
+  <circle cx="480" cy="63" r="4.5" fill="#0a0c0e" stroke="#555a61" stroke-width="1"/>
+
+  <!-- side buttons -->
+  <rect x="300" y="46" width="60" height="5" rx="2.5" fill="#575c63"/>
+  <rect x="380" y="46" width="30" height="5" rx="2.5" fill="#575c63"/>
+
+  <!-- caption -->
+  <text x="480" y="582" text-anchor="middle" font-family="Inter, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="3" fill="#a8d6a0">XIAOMI PAD 7  ·  UKE</text>
+</svg>

@@ -2,6 +2,10 @@
 <p align="center"><i>Open-source Android device trees for the Xiaomi Pad 7 &ldquo;<code>uke</code>&rdquo;</i></p>
 
 <p align="center">
+  <img src="device.png" alt="Xiaomi Pad 7 (uke)" width="70%">
+</p>
+
+<p align="center">
   <img alt="SoC" src="https://img.shields.io/badge/SoC-Snapdragon%207%2B%20Gen%203-blue">
   <img alt="Display" src="https://img.shields.io/badge/Display-3.2K%20%C2%B7%20144%20Hz-informational">
   <img alt="Kernel" src="https://img.shields.io/badge/Kernel-6.1-success">
