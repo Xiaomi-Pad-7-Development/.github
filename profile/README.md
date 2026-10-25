@@ -2,7 +2,7 @@
 <p align="center"><i>Open-source Android device trees for the Xiaomi Pad 7 &ldquo;<code>uke</code>&rdquo;</i></p>
 
 <p align="center">
-  <img src="device.png" alt="Xiaomi Pad 7 (uke)" width="70%">
+  <img src="xiaomi-pad-7.png" alt="Xiaomi Pad 7 (uke)" width="70%">
 </p>
 
 <p align="center">
